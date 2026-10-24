@@ -22,7 +22,8 @@ The website introduces the project's features, technologies, prerequisites, and 
 
 This website is hosted for free using GitHub Pages.
 
-**Live Website:** [Open the Banking System Presentation](https://its-silver-lynx.github.io/banking-system-showcase/)
+**Live Website:** [Open the Banking System Presentation](https://its-silver-lynx.github.io/Banking-System_Showcase/)
+
 
 ## Source Code
 
