@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A concise presentation of the Banking Management System Java, JDBC, and MySQL learning project.">
+  <title>Banking Management System | Java Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <section class="intro section-shell" aria-labelledby="intro-title">
+      <p class="eyebrow">A Java database learning project</p>
+      <h1 id="intro-title">Banking Management System</h1>
+      <p class="intro-copy">A console-based banking application built using Java, JDBC, and MySQL. This project explores database connectivity, account management, and basic banking transactions through a simple command-line interface.</p>
+      <p class="tech-line" aria-label="Technologies used">Java <span>·</span> JDBC <span>·</span> MySQL</p>
+    </section>
+
+    <section class="section-shell" aria-labelledby="about-title">
+      <div class="section-heading"><p class="section-kicker">01 / Overview</p><h2 id="about-title">About the Project</h2></div>
+      <div class="about-grid">
+        <p>This learning project demonstrates how a Java application can interact with a MySQL database to manage user information, bank accounts, and transactions.</p>
+        <p>It runs in the console rather than through a website or online banking platform. That keeps the focus on core Java, JDBC, SQL, and the flow of safely changing account data.</p>
+      </div>
+    </section>
+
+    <section class="section-shell" aria-labelledby="features-title">
+      <div class="section-heading"><p class="section-kicker">02 / Capabilities</p><h2 id="features-title">What It Can Do</h2></div>
+      <ul class="feature-grid">
+        <li>User registration</li><li>User login</li><li>Bank account creation</li><li>Credit money <span>(deposit)</span></li>
+        <li>Debit money <span>(withdrawal)</span></li><li>Transfer money between accounts</li><li>Balance checks with security PIN verification</li><li>Database transaction handling with commit and rollback</li>
+      </ul>
+    </section>
+
+    <section class="section-shell" aria-labelledby="prerequisites-title">
+      <div class="section-heading"><p class="section-kicker">03 / Setup</p><h2 id="prerequisites-title">What You Need Before Getting Started</h2></div>
+      <div class="prerequisite-grid">
+        <article><h3>Java JDK</h3><p>Compile and run the Java application.</p></article>
+        <article><h3>MySQL Server</h3><p>Create and store the banking database and its tables.</p></article>
+        <article><h3>MySQL Connector/J</h3><p>The JDBC driver that lets Java connect to MySQL.</p></article>
+        <article><h3>An IDE or Java editor</h3><p>IntelliJ IDEA or Eclipse can open and run the project.</p></article>
+        <article><h3>Database client <span>(optional)</span></h3><p>DBeaver or MySQL Workbench can help inspect tables and verify data.</p></article>
+      </div>
+      <p class="note"><strong>Two useful tools, two jobs:</strong> use the IDE to work with Java code; use a database client to manage and inspect MySQL. The database client is helpful, but optional.</p>
+    </section>
+
+    <section class="section-shell" aria-labelledby="concepts-title">
+      <div class="section-heading"><p class="section-kicker">04 / Building blocks</p><h2 id="concepts-title">Technologies and Concepts</h2></div>
+      <dl class="concept-list">
+        <div><dt>Java</dt><dd>Application logic, classes, methods, and user interaction.</dd></div>
+        <div><dt>JDBC</dt><dd>Establishes database connections and executes SQL queries.</dd></div>
+        <div><dt>MySQL</dt><dd>Stores user details and bank account information.</dd></div>
+        <div><dt>PreparedStatement</dt><dd>Runs parameterized SQL statements.</dd></div>
+        <div><dt>ResultSet</dt><dd>Reads the rows returned by a query.</dd></div>
+        <div><dt>SQL</dt><dd>Performs database queries and updates.</dd></div>
+        <div><dt>Transaction management</dt><dd>Uses commit and rollback to manage changes during financial operations.</dd></div>
+        <div><dt>Exception handling</dt><dd>Handles database-related errors gracefully.</dd></div>
+      </dl>
+    </section>
+
+    <section class="section-shell" aria-labelledby="getting-started-title">
+      <div class="section-heading"><p class="section-kicker">05 / Try it locally</p><h2 id="getting-started-title">Want to Run It Yourself?</h2></div>
+      <ol class="steps">
+        <li>Clone the GitHub repository.</li>
+        <li>Create the <code>banking_db</code> database in MySQL.</li>
+        <li>Create the required <code>User</code> and <code>Accounts</code> tables using the SQL schema documented in the project README, if provided there.</li>
+        <li>Configure the MySQL connection URL, username, and password in the project’s main Java application file.</li>
+        <li>Add MySQL Connector/J to the project dependencies or classpath.</li>
+        <li>Open the project in IntelliJ IDEA or Eclipse and run the application entry point described in its README.</li>
+      </ol>
+      <p class="note">The repository README is the source of truth for its exact schema, file names, and project structure.</p>
+    </section>
+
+    <section class="section-shell" aria-labelledby="learning-title">
+      <div class="section-heading"><p class="section-kicker">06 / Practice</p><h2 id="learning-title">Learning Outcomes</h2></div>
+      <div class="outcomes"><p>By exploring this project, you can practise:</p><ul><li>Java classes and object-oriented programming</li><li>JDBC database connectivity</li><li>SQL CRUD operations</li><li>PreparedStatement and ResultSet</li><li>Database exception handling</li><li>Transactions with commit and rollback</li><li>Taking user input through Scanner</li></ul></div>
+    </section>
+
+    <section class="closing section-shell" aria-labelledby="closing-title">
+      <p class="section-kicker">07 / Explore the code</p>
+      <h2 id="closing-title">Did This Project Catch Your Interest?</h2>
+      <p>If you'd like to explore how it works, feel free to visit the source code, clone the repository, and try it out for yourself. I hope it helps you learn something new!</p>
+      <a class="primary-link" href="https://github.com/its-silver-lynx/Banking-System_JDBC_Project" target="_blank" rel="noopener noreferrer">View Project on GitHub <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+  <footer class="site-footer">Built with Java, JDBC &amp; MySQL · A learning project by Priyanshu</footer>
+</body>
+</html>
